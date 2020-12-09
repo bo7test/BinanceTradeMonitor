@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+body{
+    background: whitesmoke;
+}
+.dangerMsg{
+    color: red;
+}
+.successMsg{
+    color: green;
+}
+.card{
+    width: 400px;
+    background: lightblue;
+    border: 1px solid darkblue;
+    padding: 20px;
+}
+.percentage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.percentageValue{
+    border: 1px solid black;
+    background: white;
+    padding: 0px 10px;
+    text-align: center;
+    max-width: 60%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.append{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.append .card{
+    margin-bottom: 20px;
+    width: 250px!important;
+    margin-left: 10px;
+}
+.type{
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+.informationSection{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container{
+    padding: 40px!important;
+}
+
+
+@media only screen and (max-width: 485px) {
+    .addSymbolSection{
+        margin-top: 40px;
+    }
+}
